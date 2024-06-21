@@ -15,8 +15,10 @@
         <div class="choose1">
             <p>Choose a plan</p>
             <p>Billed montly <label class="switch">
-                <input type="checkbox">
+                <input  type="checkbox" id="check">
                 <span class="slider round"></span>
+                <label for="check" class="year-label"><i class="fa-solid fa-toggle-off"></i></label>
+                <label for="check" class="month-label"><i class="fa-solid fa-toggle-on"></i></label>
               </label> Billed anually</p>
         </div>
    </div>
@@ -24,7 +26,7 @@
         <div id="pricing">
             <div class="price-card">
                 <p class="card-header">Starter</p>
-                <p class="card-price">$19</p>
+                <p class="card-price">$<span class="price">19</span><span class="duration"></span></p>
                 <ul>
                     <li>500 Maus</li>
                     <li>3 Projects</li>
@@ -33,11 +35,11 @@
                     <li>Unlimited branded themes</li>
                     <li>Email Support</li>
                 </ul>
-                <button id="valime" onclick="myFunc()">Choose Plan</button>
+                <button id="valime" >Choose Plan</button>
             </div>
             <div class="price-card">
                 <p class="card-header">Pro</p>
-                <p class="card-price">$99<span class="month">/month</span></p>
+                <p class="card-price">$<span class="price">99</span><span class="duration"></span></p>
                 <ul>
                     <select id="country" name="country">
                         <option value="australia">2500</option>
@@ -49,7 +51,7 @@
                     <li>Unlimited fully customizable themes</li>
                     <li>A dedicated Customer Success Manager</li>
                 </ul>
-                <button id="valime">Choose Plan</button>
+                <button id="valime" class="okkei">Choose Plan</button>
             </div>
             
             <div class="price-card">
@@ -67,6 +69,7 @@
 
         </div>
     </div>
-    <script type="module" src="index.js"></script>
+    
+    <script src="index.js"></script>
 </body>
 </html>

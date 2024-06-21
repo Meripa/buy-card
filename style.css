@@ -63,7 +63,9 @@ body {
     height: 300px;
 }
 
-
+.duration{
+  font-size: 24px;
+}
 
 #valime{
     background-color: rgba(34,38,43,255);
