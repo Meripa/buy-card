@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy</title>
+</head>
+<body>
+   <div class="container">
+        <div class="navbar">
+            <h4>Your current plan</h4>
+            <h1>Starter Trial * 500MAUS</h1>
+        </div>
+        <div class="choose1">
+            <p>Choose a plan</p>
+            <p>Billed montly <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label> Billed anually</p>
+        </div>
+   </div>
+   <div class="perses">
+        <div id="pricing">
+            <div class="price-card">
+                <p class="card-header">Starter</p>
+                <p class="card-price">$19</p>
+                <ul>
+                    <li>500 Maus</li>
+                    <li>3 Projects</li>
+                    <li>Unlimited Guides</li>
+                    <li>Unlimited flows</li>
+                    <li>Unlimited branded themes</li>
+                    <li>Email Support</li>
+                </ul>
+                <button id="valime" onclick="myFunc()">Choose Plan</button>
+            </div>
+            <div class="price-card">
+                <p class="card-header">Pro</p>
+                <p class="card-price">$99<span class="month">/month</span></p>
+                <ul>
+                    <select id="country" name="country">
+                        <option value="australia">2500</option>
+                        <option value="canada">3000</option>
+                        <option value="usa">3500</option>
+                    </select>
+                    <li>All starter features. plus:</li>
+                    <li>Unlimited projects</li>
+                    <li>Unlimited fully customizable themes</li>
+                    <li>A dedicated Customer Success Manager</li>
+                </ul>
+                <button id="valime">Choose Plan</button>
+            </div>
+            
+            <div class="price-card">
+                <p class="card-header">Enterprise</p>
+                <p class="card-price">Let`s Talk!</p>
+                <ul>
+                    <li>All Pro features</li>
+                    <li>Unlimited MAUs</li>
+                    <li>Dedicated environment</li>
+                    <li>Enterprise account administration</li>
+                    <li>Premium support and services</li>
+                </ul>
+                <button id="valime">Contact Us</button>
+            </div>
+
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
